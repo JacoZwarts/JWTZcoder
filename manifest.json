@@ -1,0 +1,30 @@
+{
+  "id": "jwtzcoder",
+  "name": "JWT-Zcoder",
+  "version": "0.1.0",
+  "description": "JWT Decoding Plugin for Caido",
+  "author": {
+    "name": "Jaco Zwarts",
+    "email": "jaco@zwarts-sec.com",
+    "url": "https://github.com/JacoZwarts/JWTZcoder"
+  },
+  "plugins": [
+    {
+      "kind": "frontend",
+      "id": "caido-extra-commands",
+      "name": "Extra Commands",
+      "entrypoint": "frontend/script.js",
+      "style": "frontend/style.css",
+      "backend": {
+        "id": "caido-extra-commands-backend"
+      }
+    },
+    {
+      "kind": "backend",
+      "id": "caido-extra-commands-backend",
+      "name": "Extra Commands Backend",
+      "runtime": "javascript",
+      "entrypoint": "backend/script.js"
+    }
+  ]
+}
