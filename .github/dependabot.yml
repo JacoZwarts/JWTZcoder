@@ -27,7 +27,7 @@ updates:
       - dependency-name: "@caido/sdk-frontend"
       - dependency-name: "@caido/sdk-backend"
 
-  automerge: 
+automerge: 
     enabled: true
     match:
       - dependency-type: "all"
