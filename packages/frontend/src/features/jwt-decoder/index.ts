@@ -173,7 +173,6 @@ class JWTDecode {
       this.activeEditor.state.readOnly
     )
       return;
-    newContent = jwtDecode(newContent);
 
     this.activeEditor.dispatch({
       changes: [
