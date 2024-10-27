@@ -6,4 +6,7 @@ This plugin is currently a work in progress, built using the [React material UI 
 [Caido Community Idea #8](https://github.com/caido-community/ideas/issues/8)
 
 ## Quick View:
-![JWT-ZCoder Quick View](https://github.com/user-attachments/assets/cefcfca8-8765-4e95-abde-d247627ee198)
+<img width="1132" alt="QuickView" src="https://github.com/user-attachments/assets/75d60707-a11f-469a-aabd-4bfb9f3e311c">
+
+## JWT Details Page:
+<img width="1277" alt="JWT-ZCoder View" src="https://github.com/user-attachments/assets/dba3b706-2bae-4668-8b89-cfc1009628f1">
