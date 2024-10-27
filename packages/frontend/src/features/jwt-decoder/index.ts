@@ -1,7 +1,7 @@
 import { CaidoSDK } from "@/types";
 import { EvenBetterAPI } from "@bebiks/evenbetter-api";
 import { PageOpenEvent } from "@bebiks/evenbetter-api/src/events/onPageOpen";
-import { jwtDecode } from "jwt-decode";
+import * as jose from 'jose'
 import "./jwt-decoder.css";
 
 interface CodeMirrorEditor {
@@ -273,8 +273,7 @@ class JWTDecode {
 
   private showjwtDecode(text: string): void {
     try {
-      const decoded = jwtDecode(text);
-      this.updateText(JSON.stringify(decoded));
+      this.updateText(JSON.stringify(jose.decodeJwt(text)));
       this.show();
     } catch {
 
