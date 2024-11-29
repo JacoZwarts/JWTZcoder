@@ -23,7 +23,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@caido/sdk-backend": "0.43.1",
+    "@caido/sdk-backend": "0.44.1",
     "@types/node": "^22.7.4",
     "@vitejs/plugin-react": "^4.3.1",
     "backend": "workspace:*",
